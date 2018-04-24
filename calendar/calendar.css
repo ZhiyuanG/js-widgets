@@ -1,0 +1,60 @@
+.calendar {
+    border: 1px solid black;
+}
+
+.header {
+    position: relative;
+}
+
+.header ul {
+    top: 50%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-50%);
+}
+
+.header ul li {
+    text-align: center;
+}
+
+.header .prev {
+    float: left;
+}
+
+.header .next {
+    float: right;
+}
+
+.weekdays {
+    color: #666;
+}
+
+.weekdays ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.weekdays ul li {
+    display: inline-block;
+    position: relative;
+    width: 14.28%;
+    height: 100%;
+}
+
+.weekdays ul li span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days {
+
+}
